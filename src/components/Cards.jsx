@@ -1,6 +1,7 @@
 import React from 'react'
 import TwitterIcon from '../img/twitterIcon.svg'
 
+// Cards Main Component
 const Cards = ({name, user, text}) => {
   return (
     <>
