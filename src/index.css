@@ -1,0 +1,391 @@
+*{
+  margin: 0;
+  font-family: sans-serif;
+}
+.header{
+  width: 100%;
+  height: 65px;
+  background-color: #F7F6F4;
+}
+a{
+  text-decoration: none;
+}
+.subHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: inherit;
+  margin: auto;
+}
+.header-content{
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  height: inherit;
+  align-items: center;
+  color: #506683;
+}
+.h-left{
+  gap: 40px;
+}
+.h-right{
+  gap: 80px;
+  justify-content: flex-end;
+}
+.aContent{
+  color: #506683;;
+}
+.aDetail{
+  color: #1DA1F2;
+}
+.flag{
+  width: 16px;
+  height: 16px;
+}
+.headerBtn{
+  border: 1px solid rgb(205, 204, 204);
+  border-radius: 20px;
+  height: 40px;
+  width: 95px;
+  font-weight: 600;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar{
+  width: 100%;
+  height: 70px;
+}
+.print{
+  width: 140px;
+}
+.navHolder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #506683;
+  width: 48em;
+}
+.navItem{
+  color: #4B6382;
+  font-weight: 600;
+  font-size: 14.5px;
+}
+.navAccount{
+  display: flex;
+  align-items: center;
+  width: 11em;
+  justify-content: space-between;
+}
+.signIn{
+  background: none;
+  border: none;
+  font-size: 14.5px;
+  color: #D77F81;
+  font-weight: 600;
+}
+.mainSection{
+  width: 100%;
+}
+.subMain{
+  display: flex;
+  flex-direction: column;
+}
+.mainNav{
+  align-self: flex-start;
+}
+.homeNav{
+  color:#B0B8C2;
+  font-size: 12px;
+  font-weight: 600;
+}
+.navCost{
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #384A62;
+}
+.mainContainer{
+  width: 100%;
+  height: 600px;
+  margin-top: 90px;
+}
+.mainMarg{
+  margin-left: 40px;
+}
+.pqc{
+  color: #384A62;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-view{
+  background-color: #ECE8D9;
+  width: 100%;
+  /* height: fit-content; */
+  height: 480px;
+}
+.prints{
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.print-left{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 650px;
+  align-items: flex-start;
+}
+.qp{
+  font-size: 67.2px;
+  font-family: 'DM Serif Display', serif;
+  color: #384A62;
+  font-weight: 400;
+}
+.shipped{
+  color: #708095;
+  font: 30px;
+  font-weight: 600;
+}
+.print-card{
+  width: 450px;
+  height: 350px;
+}
+.form{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+}
+.label{
+  color: #384A62;
+  font-size: 16px;
+  font-weight: 700;
+}
+#input{
+  height: 80px;
+  width: 620px;
+  font-size: 16px;
+  padding-left: 20px;
+   border: none;
+  border-radius: 3px;
+}
+#input::placeholder{
+  color: rgba(128, 128, 128, 0.461);
+}
+.item-search{
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.686);
+}
+.anime{
+  background-color: #F3B1CD;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.carol{
+  font-weight: 700;
+}
+.shop{
+  font-weight: 400;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.shop:hover{
+  text-decoration: none;
+  border-bottom: 1px solid #454545;
+  padding-bottom: 0px;
+  color: #454545;
+}
+.myCard{
+  padding: 30px 80px;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+}
+.holder{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.products{
+  color: #384A62;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'DM Serif Display', serif;
+}
+.sap{
+  font-weight: 600;
+  color: #D77F81;
+  font-size: 16px;
+}
+.cardItem{
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  border: 1px solid rgba(128, 128, 128, 0.21);
+  box-shadow: 1px 1px 2px grey;
+}
+.cardSmall{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+.tbc{
+  color: #384A62;
+  font-size: 16px;
+  font-weight: 700;
+}
+.starting{
+  color: #708095;
+  font-size: 12.8px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.price{
+  color: #384A62;
+  font-size: 20px;
+  font-weight: 700;
+}
+.boxHolder{
+  width: 260px;
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+}
+.box{
+  width: 260px;
+  height: 210px;
+  transition: all .1s linear;
+  position: absolute;
+  left: 0;
+}
+.box:hover{
+  transform: scale(1.1);
+}
+.priceSpan{
+  color: #708095;
+  font-size: 14.4px;
+  font-weight: 700;
+}
+.anchorButton{
+  width: 210px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #D77F81;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.anchorItem{
+  color: white;
+}
+.gt{
+  color: white;
+  font-size: 11px;
+  margin-left: 10px;
+}
+.categories{
+  display: flex;
+  flex-direction: column;
+  /* margin: 40px 0 0 0; */
+}
+.cart{
+  display: flex;
+  padding: 0px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular{
+  color: #384A62;
+  font: 30px;
+  font-weight: 600;
+  font-family: serif;
+}
+.seeAll{
+  color: #D77F81;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600px;
+}
+.onlineDiv{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 50px 70px 0;
+  width: 80%;
+}
+.onlineTop{
+  color: #384A62;
+  font-size: 30px;
+  font-family: serif;
+  font-weight: 600;
+}
+.onlinePara{
+  color: #506683;
+  font-size: 20px;
+  font-weight: 600;
+  width:70%;
+  margin-bottom: 30px;
+}
+.onlineCompany{
+  padding: 0px 0 80px 0;
+}
+.onlineImg{
+  width: 1170px;
+}
+.card{
+  display: flex;
+  width: 380px;
+  padding: 26px;
+  border-radius: 5px;
+}
+.customerContainer{
+  background-color: #EDF6FD;
+  padding: 80px;
+}
+.customerDiv{
+ display: flex;
+}
+.cust{
+  color: #384A62;
+  font: 600 30px serif;
+}
+.cardContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.twitterIcon{
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 100%;
+  padding: 10px;
+}
+.imgIcon{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.cardText{
+  text-align: left;
+  padding-left: 58px;
+}
